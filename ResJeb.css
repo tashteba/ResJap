@@ -1,0 +1,256 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+
+body,ex1 {
+font-family:'Fira Sans', sans-serif;
+font-weight: 700;
+background-image:url(image12.png);
+background-repeat: no-repeat;
+background-color:white;
+background-size: cover;
+}
+
+.instructions{
+
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    padding-left: 5rem;
+    padding-right: 20rem;    
+    
+}
+
+    
+     
+
+
+.gold
+{
+	color:#fff;
+	background: linear-gradient(271deg,#ffb705,#a97e02,#f9c52d,#e9ad00);
+	background-size: 360% 360%;
+	animation: gradient-animation 6s ease infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@keyframes gradient-animation
+{
+	0%
+	{
+		background-position: 0% 50%;
+	}
+
+	50%
+	{
+		background-position: 100% 50%;
+	}
+
+	100%
+	{
+		background-position: 0% 50%;
+
+	}
+}
+
+@-webkit-keyframes Gradient
+{
+	0%
+	{
+		background-position: 30% 50%;
+	}
+
+	50%
+	{
+		background-position: 25% 50%;
+	}
+
+	100%
+	{
+		background-position: 30% 50%;
+	}
+}
+
+.redstoneov
+{
+	color:#fff;
+  background: linear-gradient(97deg,#c60303,#df2d2d,#9d2323,#ff0000,#ca1616,#f14d4d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+    background-size: 360% 360%;
+    animation: gradient-animation 15s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+@-webkit-keyframes Gradient
+{
+	0%
+	{
+		background-position: 30% 50%;
+	}
+
+	50%
+	{
+		background-position: 25% 50%;
+	}
+
+	100%
+	{
+		background-position: 30% 50%;
+	}
+}
+
+
+.petit
+{
+	color:#fff;
+  font-size:0.5vw;
+}
+
+
+h1{
+  color:#fff
+  font-size:2vw;
+	font-weight: 900;
+
+}
+
+h2{
+  color:#fff
+  font-size:1.5vw;
+	font-weight: 820;
+
+}
+
+h3{
+  color:#fff
+  font-size:1vw;
+	font-weight: 750;
+}
+
+h4{
+  color:#fff
+  font-size:0.5vw;
+	font-weight: 700;
+
+}
+
+.centrertexte{
+  text-align: center;
+}
+
+.ombre{
+  text-shadow: 0px 4px 2px rgba(0,0,0,0.40);
+}
+
+
+.bordure {
+  border: 2px groove black;
+  padding: 0.5em;
+  border-radius: 12px;
+  display: table;
+  margin: auto;
+}
+.bordure2 {
+  border: 5px groove orange;
+  padding: 0.5em;
+  border-radius: 12px;
+  display: table;
+  margin: auto;
+  font-style: italic; 
+    text-decoration-line: underline;
+          }
+
+
+.button {
+  display: inline-flex;
+	justify-content: center; /* Axe des Y */
+  align-items: center; /* Axe des X */
+  border-radius: 18px;
+  background-color: #8b0000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: unset;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.6s;
+}
+
+.button span:after {
+  content: '\27E9';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -19px;
+  transition: 0.6s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.buttonpetit {
+
+font-size: 16px;
+padding: 12px;
+min-width: 150px;
+
+}
+
+.buttongrand {
+
+font-size: 20px;
+padding: 16px;
+min-width: 180px;
+
+}
+
+
+.redim {
+padding-top: 4rem;
+padding-bottom: 1rem;
+padding-left: 0rem;
+padding-right: 40rem;
+}
+.instructions {
+    font-size: 18;
+padding-top: 0rem;
+padding-bottom: 0rem;
+padding-left: 5rem;
+padding-right: 20rem;
+    
+}
+.footer 
+{
+    
+    
+    
+}
+
